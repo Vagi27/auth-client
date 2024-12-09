@@ -1,7 +1,12 @@
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
-    return <div>app</div>;
+    return (
+        <div>
+            <Outlet />
+        </div>
+    );
 };
 
 export default App;
